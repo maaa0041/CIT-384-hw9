@@ -129,7 +129,7 @@ var averageScore = totalScore / 3;
 //* IF ELSE Statement for Section 4
 var resultMessage;
 
-if (averageScore > 75) {
+if (averageScore > 70) {
     resultMessage = "You passed";
 } else {
     resultMessage = "You failed";
@@ -157,7 +157,7 @@ document.getElementById("mathOutput").innerHTML = mathOutput;
 
 // TODO:
 // 1. Write at least TWO if/else statements
-//
+//* Check Line 15 and 129 for conditionals
 // Ideas:
 // - check if a value is NaN
 // - check if a number is an integer
